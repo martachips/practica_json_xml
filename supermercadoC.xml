@@ -1,0 +1,28 @@
+<supermercados>
+  <supermercado>
+    <nombre>Supermercado C</nombre>
+    <dirección>Calle del Soplador, 1</direcció>
+    <productos>
+      <producto>
+        <nombre>leche</nombre>
+        <oferta>false</oferta>
+        <habitual>true</habitual>
+        <unidades>6</unidades>
+        <unidad_medida>litro</unidad_medida>
+        <precio>3.99</precio>
+        <adquirido>false</adquirido>
+      </producto>
+      <producto>
+        <nombre>arena de gato</nombre>
+        <oferta>true</oferta>
+        <periodo_vigencia>24-05-2023 - 28-05-2023</periodo_vigencia>
+        <habitual>false</habitual>
+        <unidades>1</unidades>
+        <unidad_medida>kilogramo</unidad_medida>
+        <precio>3.95</precio>
+        <adquirido>false</adquirido>
+      </producto>
+    </productos>
+  </supermercado>
+</supermercados>
+        

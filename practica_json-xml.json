@@ -1,0 +1,73 @@
+
+{
+  "supermercados": [
+    {
+      "nombre": "Supermercado A",
+      "direccion": "Calle Principal 123",
+      "productos": [
+        {
+          "nombre": "Leche",
+          "oferta": true,
+          "periodo_vigencia": "2023-04-01 - 2023-04-30",
+          "habitual": true,
+          "unidades": 1,
+          "unidad_medida": "litro",
+          "precio": 0.99,
+          "adquirido": false
+        },
+        {
+          "nombre": "huevos",
+          "oferta": false,
+          "habitual":"true",
+          "unidades":6,
+          "unidad_medida": "unidad",
+          "precio": 1.59,
+          "adquirido": true
+        },
+        {
+          "nombre": "Pan",
+          "oferta": false,
+          "habitual": true,
+          "unidades": 2,
+          "unidad_medida": "barra",
+          "precio": 1.50,
+          "adquirido": true
+        }
+      ]
+    },
+    {
+      "nombre": "Supermercado B",
+      "direccion": "Avenida Secundaria 456",
+      "productos": [
+        {
+          "nombre": "azúcar",
+          "oferta": false,
+          "habitual": false,
+          "unidades": 1,
+          "unidad_medida": "unidad",
+          "precio": 0.99,
+          "adquirido": true
+        },
+        {
+          "nombre": "Huevos",
+          "oferta": false,
+          "habitual": true,
+          "unidades": 12,
+          "unidad_medida": "unidad",
+          "precio": 2.99,
+          "adquirido": false
+        },
+        {
+          "nombre": "Cerveza",
+          "oferta": true,
+          "periodo_vigencia": "2023-04-01 - 2023-04-15",
+          "habitual": false,
+          "unidades": 6,
+          "unidad_medida": "botella",
+          "precio": 5.99,
+          "adquirido": false
+        }
+      ]
+    }
+  ]
+}
